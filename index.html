@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ООО Завод «ГофропакТюмень» — Все отлично складывается!</title>
+  <meta name="description" content="ООО Завод «ГофропакТюмень» — производство гофрокоробок любой сложности с 2002 года. Разработка, изготовление и доставка гофротары по всей России." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">ГП</span>
+        <span class="logo__text">
+          <small>ООО Завод</small>
+          <strong>ГофропакТюмень</strong>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">О заводе</a>
+        <a href="#products" class="nav__link">Продукция</a>
+        <a href="#advantages" class="nav__link">Преимущества</a>
+        <a href="#production" class="nav__link">Производство</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+73452689898" class="header__phone">+7 (3452) 68-98-98</a>
+        <a href="#order" class="btn btn--primary btn--sm">Оставить заявку</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="hero__badge">Гофроупаковка с 2002 года</span>
+        <h1 class="hero__title">Все отлично<br /><span>складывается!</span></h1>
+        <p class="hero__subtitle">
+          ООО Завод «ГофропакТюмень» — производство гофрокоробок любой
+          сложности. Разрабатываем, изготавливаем и доставляем тару,
+          которая надёжно защищает вашу продукцию.
+        </p>
+        <div class="hero__actions">
+          <a href="#order" class="btn btn--primary">Рассчитать стоимость</a>
+          <a href="#products" class="btn btn--ghost">Смотреть продукцию</a>
+        </div>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num" data-count="20">0</span>
+          <span class="stat__label">лет на рынке</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="750">0</span>
+          <span class="stat__label">млн м² продукции</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="100">0</span>
+          <span class="stat__label">% контроль качества</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about__inner">
+      <div class="about__media reveal">
+        <img src="images/about.jpg" alt="Производство гофротары" class="about__img" loading="lazy" />
+      </div>
+      <div class="about__content reveal">
+        <span class="section__eyebrow">О нас</span>
+        <h2 class="section__title">20 лет надёжной упаковки</h2>
+        <p>
+          ООО Завод «ГофропакТюмень» основан в 2002 году и является одним
+          из лидеров по производству гофротары в Уральском и Сибирском
+          федеральных округах. Мы произвели более 750 000 000 м² продукции.
+        </p>
+        <p>
+          Путь, по которому идёт Завод «ГофропакТюмень» — это постоянное
+          совершенствование производственного дела и бизнес-процессов, а
+          также развитие конкурентных преимуществ. Предприятие динамично
+          развивается, о чём свидетельствуют объём и география продаж.
+        </p>
+        <a href="#order" class="btn btn--primary">Связаться с нами</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section section--soft products" id="products">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Продукция</span>
+        <h2 class="section__title">Гофрокоробки под любые задачи</h2>
+        <p class="section__lead">
+          Изготавливаем короба по вашим размерам, ГОСТ, ТУ и каталогу
+          FEFCO. Подберём прочность и конструкцию под конкретный товар.
+        </p>
+      </div>
+
+      <div class="products__grid reveal reveal--stagger">
+        <article class="pcard">
+          <span class="pcard__num">01</span>
+          <div class="pcard__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 16l18-9 18 9-18 9-18-9z"/><path d="M6 16v16l18 9 18-9V16"/><path d="M24 25v16"/>
+            </svg>
+          </div>
+          <h3 class="pcard__title">Четырёхклапанные ящики</h3>
+          <p>Классические короба FEFCO 0201 — универсальное решение для хранения и транспортировки.</p>
+        </article>
+        <article class="pcard">
+          <span class="pcard__num">02</span>
+          <div class="pcard__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 20l20-8 20 8-20 8-20-8z"/><path d="M4 20v8l20 8 20-8v-8"/>
+            </svg>
+          </div>
+          <h3 class="pcard__title">Гофролотки</h3>
+          <p>Открытые и самосборные лотки для продуктов, овощей, фруктов и штучных товаров.</p>
+        </article>
+        <article class="pcard">
+          <span class="pcard__num">03</span>
+          <div class="pcard__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="8" y="12" width="32" height="26" rx="2"/><path d="M8 20h32"/><path d="M20 12v-4h8v4"/>
+            </svg>
+          </div>
+          <h3 class="pcard__title">Коробки под заказ</h3>
+          <p>Индивидуальные размеры и конструкции, рассчитанные под форму и вес вашей продукции.</p>
+        </article>
+        <article class="pcard">
+          <span class="pcard__num">04</span>
+          <div class="pcard__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 6l16 8v20l-16 8-16-8V14z"/><path d="M24 6v12"/><path d="M8 14l16 8 16-8"/>
+            </svg>
+          </div>
+          <h3 class="pcard__title">Самосборные короба</h3>
+          <p>Быстрая сборка без скотча и клея — экономия времени на упаковке продукции.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANTAGES -->
+  <section class="section advantages" id="advantages">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Преимущества</span>
+        <h2 class="section__title">Почему выбирают «ГофропакТюмень»</h2>
+      </div>
+
+      <div class="adv__grid reveal reveal--stagger">
+        <div class="adv">
+          <div class="adv__icon">20</div>
+          <h3>20 лет на рынке</h3>
+          <p>Работаем с 2002 года и произвели более 750 000 000 м² продукции.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">✎</div>
+          <h3>Разработка любой сложности</h3>
+          <p>Расчёт прочности по ГОСТ, ТУ и каталогу FEFCO для сохранности товара.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">⚙</div>
+          <h3>Современное оборудование</h3>
+          <p>Автоматизация и цифровизация процессов на основе Lean.</p>
+        </div>
+        <div class="adv">
+          <div class="adv__icon">🚚</div>
+          <h3>Доставка по России</h3>
+          <p>Собственный автотранспорт — привезём заказ в срок и по нужному адресу.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTION -->
+  <section class="section section--dark production" id="production">
+    <div class="container production__inner">
+      <div class="production__content reveal">
+        <span class="section__eyebrow section__eyebrow--light">Производство</span>
+        <h2 class="section__title section__title--light">Полный цикл на одной площадке</h2>
+        <p>
+          От расчёта конструкции и подбора прочностных характеристик до
+          изготовления и отгрузки — все этапы проходят под контролем на
+          нашем производстве в Тюмени.
+        </p>
+        <ul class="production__list">
+          <li>Разработка и подбор гофротары под задачу клиента</li>
+          <li>Соответствие ГОСТ, ТУ и каталогу FEFCO</li>
+          <li>Контроль качества на каждом этапе</li>
+          <li>Отгрузка собственным автотранспортом</li>
+        </ul>
+      </div>
+      <div class="production__media reveal">
+        <img src="images/production.jpg" alt="Цех производства гофротары" class="production__img" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER / CTA -->
+  <section class="section order" id="order">
+    <div class="container order__inner">
+      <div class="order__text reveal">
+        <h2 class="section__title section__title--light">Рассчитать стоимость</h2>
+        <p>Оставьте заявку — перезвоним, подберём конструкцию и рассчитаем цену под ваш тираж.</p>
+      </div>
+      <form class="order__form reveal" id="orderForm" novalidate>
+        <div class="field">
+          <input type="text" name="name" placeholder="Ваше имя" required />
+        </div>
+        <div class="field">
+          <input type="tel" name="phone" placeholder="Телефон" required />
+        </div>
+        <div class="field">
+          <textarea name="message" rows="3" placeholder="Что нужно изготовить? Размеры, тираж..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+        <p class="order__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+        <p class="order__success" id="orderSuccess" hidden>Спасибо! Мы свяжемся с вами в ближайшее время.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section--soft reviews" id="reviews">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Отзывы клиентов</span>
+        <h2 class="section__title">Нам доверяют</h2>
+      </div>
+      <div class="reviews__grid reveal reveal--stagger">
+        <blockquote class="review">
+          <span class="review__quote">&ldquo;</span>
+          <p>Работаем с Гофропак достаточно давно, закупаем партиями упаковку разных размеров. Производят быстро, всегда привозят вовремя, ни разу проблем не возникало. Рекомендую.</p>
+          <footer>
+            <strong>Евгений Рысин</strong>
+            <span class="review__stars">★★★★★</span>
+          </footer>
+        </blockquote>
+        <blockquote class="review">
+          <span class="review__quote">&ldquo;</span>
+          <p>Хочется выразить благодарность менеджеру Морозовой Татьяне, от лица компании Gost Food. Заказываем лотки для доставки еды, и в нашем деле важна своевременность! Спасибо, что всё вовремя и вежливо.</p>
+          <footer>
+            <strong>Ирина П.</strong>
+            <span class="review__stars">★★★★★</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="section clients">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Наши клиенты</span>
+        <h2 class="section__title">С нами работают</h2>
+      </div>
+      <div class="clients__grid reveal reveal--stagger">
+        <div class="client">ПРОДО</div>
+        <div class="client">DANONE</div>
+        <div class="client">Алкогольная Сибирская Группа</div>
+        <div class="client">Ишимский молочный завод</div>
+        <div class="client">Молоко</div>
+        <div class="client">Храмкерамика</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Контакты</span>
+        <h2 class="section__title">Свяжитесь с нами</h2>
+      </div>
+      <div class="contacts__grid reveal reveal--stagger">
+        <div class="contact">
+          <span class="contact__label">Телефон</span>
+          <a href="tel:+73452689898" class="contact__value">+7 (3452) 68-98-98</a>
+        </div>
+        <div class="contact">
+          <span class="contact__label">E-mail</span>
+          <a href="mailto:mail@z-gpt.ru" class="contact__value">mail@z-gpt.ru</a>
+        </div>
+        <div class="contact">
+          <span class="contact__label">Адрес</span>
+          <span class="contact__value">г. Тюмень, проезд Воронинские горки, д. 1/8</span>
+        </div>
+        <div class="contact">
+          <span class="contact__label">Режим работы</span>
+          <span class="contact__value">Пн–Пт, 8:00–17:00<br />Сб, Вс — выходной</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__mark">ГП</span>
+        <div>
+          <strong>ГОФРОПАКТЮМЕНЬ</strong>
+          <p>Все отлично складывается!</p>
+        </div>
+      </div>
+      <p class="footer__copy">2002–<span id="year"></span>, ООО «Завод «ГофропакТюмень». Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
